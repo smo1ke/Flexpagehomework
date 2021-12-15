@@ -1,0 +1,56 @@
+body {
+    color: #fff;
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.backimg {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://image.ibb.co/gzOBup/showcase.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.flex-container {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin: 150px auto 150px;
+}
+
+.flex-container .logo {
+    width: 180px;
+    height: 180px;
+}
+
+.inner-block {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.inner-block h1 {
+    font-size: 35px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.section-block {
+    width: 300px;
+    height: 160px;
+    
+}
